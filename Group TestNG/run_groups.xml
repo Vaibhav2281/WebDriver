@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="1st">
+  <groups>
+  <run>
+  <include name="abc"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="practiiccee.Groups"/>
+    </classes>
+  </test>
+  
+  <test name="2nd">
+  <groups>
+  <run>
+  <include name="xyz"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="practiiccee.Groups"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
